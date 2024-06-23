@@ -30,11 +30,11 @@ public class HomePage {
     private final By remove3rdButton = By.id("ignore_word_tooltip_2");
 
 
-    String smallestWordPath = "/Users/julianaangelvalencia/Desktop/LUMU/src/test/java/resources/texts/smallest_word";
-    String simpleSentencePath = "/Users/julianaangelvalencia/Desktop/LUMU/src/test/java/resources/texts/simple_sentence";
-    String sentenceWithSignPath = "/Users/julianaangelvalencia/Desktop/LUMU/src/test/java/resources/texts/sentence_with_signs";
-    String onlySpecialCharactersPath = "/Users/julianaangelvalencia/Desktop/LUMU/src/test/java/resources/texts/only_special_characters";
-    String keywordDensityPath = "/Users/julianaangelvalencia/Desktop/LUMU/src/test/java/resources/texts/keyword_density";
+    String smallestWordPath = "../resources/texts/smallest_word";
+    String simpleSentencePath = "../resources/texts/simple_sentence";
+    String sentenceWithSignPath = "../resources/texts/sentence_with_signs";
+    String onlySpecialCharactersPath = "../resources/texts/only_special_characters";
+    String keywordDensityPath = "../resources/texts/keyword_density";
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
