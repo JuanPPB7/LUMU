@@ -26,6 +26,8 @@ mvn clean test
 5. To view the test reports, run:
 allure serve target/surefire-reports
 
+(Note: Please verify that the path of the text files is correct. If it still does not run, please enter the absolute path of the files).
+
 Technologies Used
 Java
 Maven
